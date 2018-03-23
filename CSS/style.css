@@ -144,7 +144,11 @@ iframe {
 @media screen and (min-width: 640px) and (max-width: 1024px) {
 /* Main Elements */
 body {
-    background: url(https://upload.wikimedia.org/wikipedia/commons/b/b1/Ringrose.jpg);        
+    background: url(https://upload.wikimedia.org/wikipedia/commons/b/b1/Ringrose.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
     }
     
 iframe {
